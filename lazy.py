@@ -47,14 +47,10 @@ geodist = LazyImport("from geopy import distance as geodist", "SUBPACKAGE geodis
 youtube_dl = LazyImport("import youtube_dl", "PACKAGE youtube_dl — Command-line program to download videos from YouTube.com and other video sites, derived from 'import youtube_dl', from https://github.com/ytdl-org/youtube-dl")
 YouTube = LazyImport("from pytube import YouTube", "CLASS pytube.YouTube(url) — A lightweight YouTube wrapper for downloading YouTube videos, derived from 'from pytube import YouTube', from https://github.com/nficano/pytube, Documentation: https://python-pytube.readthedocs.io/en/latest/api.html#youtube-object")
 pafy = LazyImport("import pafy", "PACKAGE pafy — Python library to download YouTube content and retrieve metadata, derived from 'import pafy', from https://github.com/mps-youtube/pafy, Documentation: https://pythonhosted.org/pafy/")
-lxml = LazyImport("import lxml", "PACKAGE lxml — The lxml XML toolkit for Python, derived from 'import lxml', from https://github.com/lxml/lxml, Documentation: https://lxml.de/")
-etree = LazyImport("from lxml import etree", "SUBPACKAGE lxml.etree — The ElementTree API, derived from 'from lxml import etree', from https://github.com/lxml/lxml, Documentation: https://lxml.de/")
 smtplib = LazyImport("import smtplib", "LIBRARY smtplib — SMTP protocol client, derived from 'import smtplib', part of The Python Standard Library")
 
 
 ### Image Stuff
-Image = LazyImport("from PIL import Image")
-PIL = LazyImport("import PIL")
 opencv = LazyImport("import cv2 as opencv", "PACKAGE opencv derived from cv2 — Open Source Computer Vision Library, derived from 'import cv2 as opencv', from https://github.com/opencv/opencv, Documentation: https://docs.opencv.org/master/")
 cv2 = LazyImport("import cv2", "PACKAGE cv2 — Open Source Computer Vision Library, derived from 'import cv2', from https://github.com/opencv/opencv, Documentation: https://docs.opencv.org/master/")
 
