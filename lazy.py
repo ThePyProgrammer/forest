@@ -214,6 +214,15 @@ webbrowser = LazyImport("import webbrowser", "LIBRARY webbrowser — Convenient 
 wb = LazyImport("import webbrowser as wb", "LIBRARY wb derived from webbrowser — Convenient Web-browser controller, derived from 'import webbrowser as wb', from The Python Standard Library")
 openweb = LazyImport("from webbrowser import open as openweb", "FUNCTION openweb derived from webbrowser.open — Display url using the new default browser, derived from 'from webbrowser import open as openweb', from The Python Standard Library")
 
+fastapi = LazyImport("import fastapi")
+FastAPI = LazyImport("from fastapi import FastAPI")
+pydantic = LazyImport("import pydantic")
+tornado = LazyImport("import tornado")
+sanic = LazyImport("import sanic")
+Sanic = LazyImport("from sanic import Sanic")
+
+
+
 
 ### Debugging
 pdb = LazyImport("import pdb", "LIBRARY pdb — The Python Debugger, derived from 'import pdb', from The Python Standard Library")
@@ -468,16 +477,6 @@ QFT = LazyImport("from qibo.models import QFT")
 
 ### Music Theory
 mingus = LazyImport("import mingus")
-
-
-
-### Web Frameworks
-fastapi = LazyImport("import fastapi")
-FastAPI = LazyImport("from fastapi import FastAPI")
-pydantic = LazyImport("import pydantic")
-tornado = LazyImport("import tornado")
-sanic = LazyImport("import sanic")
-Sanic = LazyImport("from sanic import Sanic")
 
 
 
