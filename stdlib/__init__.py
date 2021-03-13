@@ -10,3 +10,6 @@ from .iopy import *
 
 ## shell
 from .shell import *
+
+### debugging
+pdb = LazyImport("import pdb", "LIBRARY pdb — The Python Debugger, derived from 'import pdb', from The Python Standard Library")
