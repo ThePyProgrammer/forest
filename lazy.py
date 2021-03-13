@@ -41,8 +41,6 @@ from .audio import *
 from .web import *
 
 
-
-
 ### Auto-complete
 jedi = LazyImport("import jedi", "PACKAGE jedi — Awesome autocompletion, static analysis and refactoring library for Python, derived from 'import jedi', from https://github.com/davidhalter/jedi, Documentation: https://jedi.readthedocs.io/en/latest/")
 setup_readline = LazyImport("from jedi.utils import setup_readline", "FUNCTION setup_readline — Function that sets up readline to use Jedi in a Python interactive shell, derived from 'from jedi.utils import setup_readline', from https://github.com/davidhalter/jedi, Documentation: https://jedi.readthedocs.io/en/latest/docs/usage.html")
@@ -50,15 +48,8 @@ readline = LazyImport("import readline", "LIBRARY readline — GNU readline inte
 rlcompleter = LazyImport("import rlcompleter", "LIBRARY rlcompleter — Completion function for GNU readline, derived from 'import rlcompleter', from The Python Standard Library")
 
 
-
 ### GUI
 from .gui import *
-
-
-
-
-
-
 
 
 ### Data Wrangling
@@ -261,18 +252,6 @@ QFT = LazyImport("from qibo.models import QFT")
 ### Music Theory
 mingus = LazyImport("import mingus")
 
-
-
-### Own Modules
-pytools = LazyImport("import pytools")
-
-#######################################
-### Complementary, optional imports ###
-#######################################
-# Why is this needed? Some libraries patch existing libraries
-# Please note: these imports are only executed if you already have the library installed
-# If you want to deactivate specific complementary imports, do the following:
-# - uncomment the lines which contain `.__on_import__` and the library you want to deactivate
 
 pandas_profiling = LazyImport("import pandas_profiling")
 pd.__on_import__(pandas_profiling)  # adds df.profile_report attribute to pd.DataFrame
