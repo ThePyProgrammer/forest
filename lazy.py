@@ -25,6 +25,10 @@ from .string import *
 from .func import *
 
 
+### Temporal
+from .temporal import *
+
+
 ### Google 
 google = LazyImport("import googlesearch as google", "PACKAGE google derived from googlesearch — The google package, derived from 'import googlesearch as google', from https://github.com/MarioVilas/googlesearch, Documentation: https://python-googlesearch.readthedocs.io/en/latest/")
 googlesearch = LazyImport("import googlesearch", "PACKAGE googlesearch — The google package, derived from 'import googlesearch', from https://github.com/MarioVilas/googlesearch")
@@ -53,13 +57,6 @@ smtplib = LazyImport("import smtplib", "LIBRARY smtplib — SMTP protocol client
 
 
 
-### Python Time
-cal = LazyImport("import calendar as cal", "LIBRARY cal derived from calendar — General calendar-related functions, derived from 'import calendar as cal', part of The Python Standard Library")
-calendar = LazyImport("import calendar", "LIBRARY calendar — General calendar-related functions, derived from 'import calendar', part of The Python Standard Library")
-dt = LazyImport("import datetime as dt", "LIBRARY dt derived from datetime — Basic data and time types, derived from 'import datetime as dt', part of The Python Standard Library")
-datetime = LazyImport("from datetime import datetime", "SUBLIBRARY datetime.datetime — Basic data and time types, derived from 'from datetime import datetime', part of The Python Standard Library")
-time = LazyImport("import time", "LIBRARY time — Time access and conversions, derived from 'import time', part of The Python Standard Library")
-relativedelta = LazyImport("from dateutil.relativedelta import relativedelta", "CLASS dateutil.relativedelta.relativedelta — relativedelta instance, derived from 'from dateutil.relativedelta import relativedelta', from https://github.com/dateutil/dateutil, Documentation: https://dateutil.readthedocs.io/en/stable/relativedelta.html")
 
 
 ## Audio
