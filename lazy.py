@@ -64,43 +64,7 @@ SparkContext = LazyImport("from pyspark import SparkContext", "CLASS pyspark.Spa
 
 
 ### Data Visualization and Plotting
-matplotlib = LazyImport("import matplotlib", "PACKAGE matplotlib — A comprehensive library for creating static, animated, and interactive visualizations in Python, derived from 'import matplotlib', from https://github.com/matplotlib/matplotlib, Documentation: https://matplotlib.org/contents.html")
-mpl = LazyImport("import matplotlib as mpl", "PACKAGE mpl derived from matplotlib — A comprehensive library for creating static, animated, and interactive visualizations in Python, derived from 'import matplotlib as mpl', from https://github.com/matplotlib/matplotlib, Documentation: https://matplotlib.org/contents.html")
-plt = LazyImport("import matplotlib.pyplot as plt", "SUBPACKAGE plt derived from matplotlib.pyplot — A comprehensive library for creating static, animated, and interactive visualizations in Python, derived from 'import matplotlib.pyplot as plt', from https://github.com/matplotlib/matplotlib, Documentation: https://matplotlib.org/api/index.html#the-pyplot-api")
-pyplot = LazyImport("from matplotlib import pyplot", "SUBPACKAGE matplotlib.pyplot — A comprehensive library for creating static, animated, and interactive visualizations in Python, derived from 'from matplotlib import pyplot', from https://github.com/matplotlib/matplotlib, Documentation: https://matplotlib.org/api/index.html#the-pyplot-api")
-pylab = LazyImport("import pylab", "PACKAGE pylab - A procedural interface to the Matplotlib object-oriented plotting library, derived from 'import pylab', from https://github.com/matplotlib/matplotlib, Documentation: https://scipy.github.io/old-wiki/pages/PyLab")
-pl = LazyImport("import pylab as pl", "PACKAGE pylab - A procedural interface to the Matplotlib object-oriented plotting library, derived from 'import pylab as pl', from https://github.com/matplotlib/matplotlib, Documentation: https://scipy.github.io/old-wiki/pages/PyLab")
-
-
-matkinter = LazyImport("import matkinter", "MODULE matkinter — A library for tkinter data visualizations, derived from 'import matkinter', self-created")
-
-seaborn = LazyImport("import seaborn", "PACKAGE seaborn — A Python visualization library based on matplotlib, derived from 'import seaborn', from https://github.com/mwaskom/seaborn, Documentation: https://seaborn.pydata.org/")
-sns = LazyImport("import seaborn as sns", "PACKAGE sns derived from seaborn — A Python visualization library based on matplotlib, derived from 'import seaborn as sns', from https://github.com/mwaskom/seaborn, Documentation: https://seaborn.pydata.org/")
-eli5 = LazyImport("import eli5", "PACKAGE eli5 — A library for debugging/inspecting machine learning classifiers and explaining their predictions, derived from 'import eli5', from https://github.com/TeamHG-Memex/eli5/, Documentation: http://eli5.readthedocs.io/")
-
-plotly = LazyImport("import plotly", "PACKAGE plotly — The interactive open-source browser-based graphing library for Python (includes Plotly Express), derived from 'import plotly', from https://github.com/plotly/plotly.py, Documentation: https://plotly.com/python/")
-py = LazyImport("import plotly as py", "PACKAGE py derived from plotly — The interactive open-source browser-based graphing library for Python (includes Plotly Express), derived from 'import plotly as py', from https://github.com/plotly/plotly.py, Documentation: https://plotly.com/python/")
-go = LazyImport("import plotly.graph_objs as go", "SUBPACKAGE go derived from plotly.graph_objs — Graph Objects, derived from 'import plotly.graph_objs as go', from https://github.com/plotly/plotly.py, Documentation: https://plotly.com/python/")
-px = LazyImport("import plotly.express as px", "SUBPACKAGE px derived from plotly.express — Plotly Express, derived from 'import plotly.express as px', from https://github.com/plotly/plotly.py, Documentation: https://plotly.com/python/")
-pio = LazyImport("import plotly.io as pio", "SUBPACKAGE pio derived from plotly.io — File IO for Plotly, derived from 'import plotly.io as pio', from https://github.com/plotly/plotly.py, Documentation: https://plotly.com/python/")
-py1 = LazyImport("import plotly.plotly as py1", "SUBPACKAGE py1 derived from plotly.plotly — Plotly inbuilt subpackage, derived from 'import plotly.plotly as py1', from https://github.com/plotly/plotly.py, Documentation: https://plotly.com/python/")
-plottools = LazyImport("from plotly import tools as plottools", "SUBPACKAGE plottools derived from plotly.tools — Tools for plotly, derived from 'import plotly.tools as plottools', from https://github.com/plotly/plotly.py, Documentation: https://plotly.com/python/")
-
-dash = LazyImport("import dash", "PACKAGE dash — A Python framework for building analytical web applications, derived from 'import dash', from https://github.com/plotly/dash, Documentation: http://dash-docs.herokuapp.com/")
-dhc = LazyImport("import dash_html_components as dhc", "SUBPACKAGE dhc derived from dash.dash_html_components — A Python framework for composing a HTML layout using Python structures, derived from 'import dash.dash_html_components as dhc', from https://github.com/plotly/dash, Documentation: http://dash-docs.herokuapp.com/dash-html-components")
-dcc = LazyImport("import dash_core_components as dcc", "SUBPACKAGE dcc derived from dash.dash_core_components — A core set of components, derived from 'import dash.dash_core_components as dcc', from https://github.com/plotly/dash, Documentation: http://dash-docs.herokuapp.com/dash-core-components")
-dbc = LazyImport("import dash_bootstrap_components as dbc", "SUBPACKAGE dbc derived from dash.dash_bootstrap_components_components — A Python framework for composing a HTML layout using Python structures, derived from 'import dash.dash_bootstrap_components as dbc', from https://github.com/plotly/dash, Documentation: https://dash-bootstrap-components.opensource.faculty.ai/")
-
-bokeh = LazyImport("import bokeh", "PACKAGE bokeh — Interactive Data Visualization in the browser, from Python, derived from 'import bokeh', from https://github.com/bokeh/bokeh, Documentation: https://docs.bokeh.org/en/latest/")
-
-altair = LazyImport("import altair", "PACKAGE altair — Declarative statistical visualization library for Python, derived from 'import altair', from https://github.com/altair-viz/altair, Documentation: https://altair-viz.github.io/")
-alt = LazyImport("import altair as alt", "PACKAGE alt derived from altair — Declarative statistical visualization library for Python, derived from 'import altair as alt', from https://github.com/altair-viz/altair, Documentation: https://altair-viz.github.io/")
-
-pydot = LazyImport("import pydot", "PACKAGE pydot — Python interface to Graphviz's Dot language, derived from 'import pydot', from https://github.com/pydot/pydot")
-pydot_ng = LazyImport("import pydot_ng", "PACKAGE pydot_ng — Python interface to Graphviz's Dot language, derived from 'import pydot_ng', from https://github.com/pydot/pydot-ng")
-
-cf = LazyImport("import cufflinks as cf", "PACKAGE cf derived from cufflinks — Productivity Tools for Plotly + Pandas, derived from 'import cufflinks as cf', from https://github.com/santosjorge/cufflinks")
-cufflinks = LazyImport("import cufflinks", "PACKAGE cufflinks — Productivity Tools for Plotly + Pandas, derived from 'import cufflinks', from https://github.com/santosjorge/cufflinks")
+from .dataviz import *
 
 
 ### Machine Learning
