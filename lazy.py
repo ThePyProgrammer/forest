@@ -51,9 +51,6 @@ pafy = LazyImport("import pafy", "PACKAGE pafy — Python library to download Yo
 smtplib = LazyImport("import smtplib", "LIBRARY smtplib — SMTP protocol client, derived from 'import smtplib', part of The Python Standard Library")
 
 
-### Image Stuff
-opencv = LazyImport("import cv2 as opencv", "PACKAGE opencv derived from cv2 — Open Source Computer Vision Library, derived from 'import cv2 as opencv', from https://github.com/opencv/opencv, Documentation: https://docs.opencv.org/master/")
-cv2 = LazyImport("import cv2", "PACKAGE cv2 — Open Source Computer Vision Library, derived from 'import cv2', from https://github.com/opencv/opencv, Documentation: https://docs.opencv.org/master/")
 
 
 ### Python Time
@@ -126,8 +123,6 @@ Sanic = LazyImport("from sanic import Sanic")
 
 
 ### Data Wrangling
-
-
 
 dask = LazyImport("import dask", "PACKAGE dask — Parallel computing with task scheduling, derived from 'import dask', from https://github.com/dask/dask, Documentation: https://dask.org/")
 dd = LazyImport("from dask import dataframe as dd", "SUBPACKAGE dd derived from dask.dataframe — Dataframes implementing the Pandas API, derived from 'from dask import dataframe as dd', from https://github.com/dask/dask, Documentation: https://dask.org/")
@@ -290,11 +285,12 @@ lgb = LazyImport("import lightgbm as lgb")
 tf = LazyImport("import tensorflow as tf")
 tensorflow = LazyImport("import tensorflow")
 keras = LazyImport("import keras")
-keras2 = LazyImport("import tensorflow.keras as keras2")
+tfkeras = LazyImport("import tensorflow.keras as tfkeras")
 
-# ------ Sentiment Analysis --------
-tweepy = LazyImport("import tweepy")
-TextBlob = LazyImport("from textblob import TextBlob")
+
+### OCR
+opencv = LazyImport("import cv2 as opencv", "PACKAGE opencv derived from cv2 — Open Source Computer Vision Library, derived from 'import cv2 as opencv', from https://github.com/opencv/opencv, Documentation: https://docs.opencv.org/master/")
+cv2 = LazyImport("import cv2", "PACKAGE cv2 — Open Source Computer Vision Library, derived from 'import cv2', from https://github.com/opencv/opencv, Documentation: https://docs.opencv.org/master/")
 
 
 # NLP
@@ -302,6 +298,10 @@ nltk = LazyImport("import nltk")
 gensim = LazyImport("import gensim")
 spacy = LazyImport("import spacy")
 
+
+# ------ Sentiment Analysis --------
+tweepy = LazyImport("import tweepy")
+TextBlob = LazyImport("from textblob import TextBlob")
 
 
 # Quantum
