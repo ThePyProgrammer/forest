@@ -28,15 +28,12 @@ from ._importable import LazyImport, _import_statements
 ### Helper
 from .stdlib import *
 
+
 ### Basics
-math = LazyImport("import math", "LIBRARY: math — Mathematical functions, derived from 'import math', part of The Python Standard Library")
-cmath = LazyImport("import cmath", "LIBRARY: cmath — Mathematical functions for complex numbers, derived from 'import cmath', part of The Python Standard Library")
-statistics = LazyImport("import statistics", "LIBRARY: statistics — Mathematical statistics functions, derived from 'import statistics', part of The Python Standard Library")
-random = LazyImport("import random", "LIBRARY: random — Generate pseudo-random numbers, derived from 'import random', part of The Python Standard Library")
-choice = LazyImport("from random import choice", "FUNCTION: random.choice(seq) — Returns a random element from seq, derived from 'from random import choice', part of The Python Standard Library")
-randint = LazyImport("from random import randint", "FUNCTION: random.randint(a, b) — Computes a random integer between a and b (both inclusive), derived from 'from random import randint', part of The Python Standard Library")
-randrange = LazyImport("from random import randrange", "FUNCTION: random.randrange(start, stop[, step=1]) — Returns a randomly selected element from range(start, stop, step), derived from 'from random import randrange', part of The Python Standard Library")
-shuffle = LazyImport("from random import shuffle", "FUNCTION: random.shuffle(x) — Shuffle sequence x in place, derived from 'from random import shuffle', part of The Python Standard Library")
+from .mathematical import *
+
+
+### Array
 
 
 ### Type based manipultation
@@ -47,12 +44,6 @@ typing = LazyImport("import typing", "LIBRARY: typing — Support for type hints
 textwrap = LazyImport("import textwrap", "LIBRARY: textwrap — Text wrapping and filling, derived from 'import textwrap', part of The Python Standard Library")
 stringprep = LazyImport("import stringprep", "LIBRARY: stringprep — Internet String Preparation, derived from 'import stringprep', part of The Python Standard Library")
 reprlib = LazyImport("import reprlib", "LIBRARY: reprlib — Alternate repr() implementation, derived from 'import reprlib', part of The Python Standard Library")
-numbers = LazyImport("import numbers", "LIBRARY: numbers — Numeric abstract base classes, derived from 'import numbers', part of The Python Standard Library")
-decimal = LazyImport("import decimal", "LIBRARY: decimal — Decimal fixed point and floating point arithmetic, derived from 'import decimal', part of The Python Standard Library")
-Decimal = LazyImport("from decimal import Decimal", "CLASS: decimal.Decimal(value=0) — Decimal wrapper class, derived from 'from decimal import Decimal', part of The Python Standard Library")
-fractions = LazyImport("import fractions", "LIBRARY: fractions — Rational numbers, derived from 'import fractions', part of The Python Standard Library")
-Fraction = LazyImport("from fractions import Fraction", "CLASS: Fraction — creates a fraction, derived from 'from fractions import Fraction', part of The Python Standard Library")
-operator = LazyImport("import operator", "LIBRARY: operator — Standard operators as functions, derived from 'import operator', part of The Python Standard Library")
 arr = LazyImport("from array import array as arr", "CLASS arr derived from array.array — a base array, derived from 'from array import array as arr', part of The Python Standard Library")
 array_funcs = LazyImport("import array as array_funcs", "LIBRARY: array_funcs derived from array — Efficient arrays of numeric values, derived from 'import array as array_funcs', part of The Python Standard Library")
 
