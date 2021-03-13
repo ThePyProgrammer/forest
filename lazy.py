@@ -133,12 +133,6 @@ spark = LazyImport("import pyspark as spark", "PACKAGE spark derived from pyspar
 SparkContext = LazyImport("from pyspark import SparkContext", "CLASS pyspark.SparkContext — Main entry point for Spark functionality, derived from 'from pyspark import SparkContext', from https://github.com/apache/spark/tree/master/python, Documentation: https://spark.apache.org/docs/latest/api/python/pyspark.html#pyspark.SparkContext")
 
 
-### Data Structures
-dstructs = LazyImport("import dstructs", "MODULE dstructs — A library for data structures, derived from 'import dstructs', self-created")
-queues = LazyImport("from dstructs import queues", "SUBMODULE queues — A library for queues, derived from 'from dstructs import queues', self-created")
-queue = LazyImport("import queue", "LIBRARY queue — A synchronised queue class, derived from 'import queue', from The Python Standard Library")
-
-
 ### Data Visualization and Plotting
 matplotlib = LazyImport("import matplotlib", "PACKAGE matplotlib — A comprehensive library for creating static, animated, and interactive visualizations in Python, derived from 'import matplotlib', from https://github.com/matplotlib/matplotlib, Documentation: https://matplotlib.org/contents.html")
 mpl = LazyImport("import matplotlib as mpl", "PACKAGE mpl derived from matplotlib — A comprehensive library for creating static, animated, and interactive visualizations in Python, derived from 'import matplotlib as mpl', from https://github.com/matplotlib/matplotlib, Documentation: https://matplotlib.org/contents.html")
