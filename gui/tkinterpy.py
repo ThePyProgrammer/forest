@@ -1,4 +1,4 @@
-## Tkinter
+## tkinter
 tk = LazyImport("import tkinter as tk", "LIBRARY tk derived from tkinter — Python interface to Tcl/Tk, derived from 'import tkinter as tk', from The Python Standard Library")
 Tkinter = LazyImport("import tkinter as Tkinter", "LIBRARY Tkinter derived from tkinter — Python interface to Tcl/Tk, derived from 'import tkinter as Tkinter', from The Python Standard Library")
 tkinter = LazyImport("import tkinter", "LIBRARY tkinter — Python interface to Tcl/Tk, derived from 'import tkinter', from The Python Standard Library")
