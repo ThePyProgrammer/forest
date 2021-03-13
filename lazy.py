@@ -465,6 +465,12 @@ qibo = LazyImport("import qibo")
 QFT = LazyImport("from qibo.models import QFT")
 
 
+
+### Music Theory
+mingus = LazyImport("import mingus")
+
+
+
 ### Own Modules
 pytools = LazyImport("import pytools")
 
