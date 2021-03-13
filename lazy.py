@@ -21,14 +21,6 @@ from .string import *
 from .func import *
 
 
-### Random Objects
-pprint = LazyImport("from pprint import pprint", "FUNCTION: pprint — Data pretty printer, derived from 'from pprint import pprint', part of The Python Standard Library")
-importlib = LazyImport("import importlib", "LIBRARY: importlib — implementation of import, derived from 'import importlib', part of The Python Standard Library")
-bisect = LazyImport("import bisect", "LIBRARY: bisect — Array bisection algorithm, derived from 'import bisect', part of The Python Standard Library")
-bisect_right = LazyImport("from bisect import bisect_right", "FUNCTION bisect_right(a, x, lo=0, hi=len(a)) — Locates the insertion point for x in a to maintain sorted order which comes before any existing entries of x in a, derived from 'from bisect import bisect_right', part of The Python Standard Library")
-bisect_left = LazyImport("from bisect import bisect_left", "FUNCTION bisect_left(a, x, lo=0, hi=len(a)) — Locates the insertion point for x in a to maintain sorted order which comes before any existing entries of x in a, derived from 'from bisect import bisect_left', part of The Python Standard Library")
-
-
 ### Google 
 google = LazyImport("import googlesearch as google", "PACKAGE google derived from googlesearch — The google package, derived from 'import googlesearch as google', from https://github.com/MarioVilas/googlesearch, Documentation: https://python-googlesearch.readthedocs.io/en/latest/")
 googlesearch = LazyImport("import googlesearch", "PACKAGE googlesearch — The google package, derived from 'import googlesearch', from https://github.com/MarioVilas/googlesearch")
