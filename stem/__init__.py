@@ -24,3 +24,8 @@ from .numalg import *
 
 ## tensoralg
 from .tensoralg import *
+
+## science
+from .science import *
+
+
