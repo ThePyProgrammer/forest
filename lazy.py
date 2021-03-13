@@ -49,14 +49,6 @@ etree = LazyImport("from lxml import etree", "SUBPACKAGE lxml.etree — The Elem
 smtplib = LazyImport("import smtplib", "LIBRARY smtplib — SMTP protocol client, derived from 'import smtplib', part of The Python Standard Library")
 
 
-### File Manipulation
-difflib = LazyImport("import difflib", "LIBRARY difflib — Helpers for computing deltas, derived from 'import difflib', part of The Python Standard Library")
-tablib = LazyImport("import tablib", "PACKAGE tablib — Python Module for Tabular Datasets in XLS, CSV, JSON, YAML, derived from 'import tablib', from https://github.com/jazzband/tablib, Documentation: https://tablib.readthedocs.io/")
-pickle = LazyImport("import pickle", "LIBRARY pickle — Python object serialization, derived from 'import pickle', part of The Python Standard Library")
-csv = LazyImport("import csv", "LIBRARY csv — CSV File Reading and Writing, derived from 'import csv', part of The Python Standard Library")
-fileinput = LazyImport("import fileinput", "LIBRARY fileinput — Iterate over lines from multiple input streams, derived from 'import fileinput', part of The Python Standard Library")
-
-
 ### Image Stuff
 Image = LazyImport("from PIL import Image")
 PIL = LazyImport("import PIL")
@@ -137,33 +129,8 @@ Sanic = LazyImport("from sanic import Sanic")
 
 
 ### Data Wrangling
-scipy = LazyImport("import scipy", "PACKAGE scipy — open-source software for STEM, derived from 'import scipy', from https://github.com/scipy/scipy, Documentation: https://docs.scipy.org/doc/")
-#|----> Internal Scipy ----------------------------------------#
-sio = LazyImport("from scipy import io as sio")                #
-special = LazyImport("from scipy import special")              #
-fftpack = LazyImport("from scipy import fftpack")              #
-fft = LazyImport("from scipy import fft")                      #
-optimize = LazyImport("from scipy import optimize")            #
-op = LazyImport("from scipy import optimize as op")            #
-opt = LazyImport("from scipy import optimize as opt")          #
-ndimage = LazyImport("from scipy import ndimage")              #
-interpolate = LazyImport("from scipy import interpolate")      #
-stats = LazyImport("from scipy import stats")                  #
-signal = LazyImport("from scipy import signal")                #
-integrate = LazyImport("from scipy import integrate")          #
-csgraph = LazyImport("from scipy.sparse import csgraph")       #
-spatial = LazyImport("from scipy import spatial")              #
-#--------------------------------------------------------------#
 
 
-pandas = LazyImport("import pandas", "PACKAGE pandas — powerful Python data analysis toolkit, derived from 'import pandas', from https://github.com/pandas-dev/pandas, Documentation: https://pandas.pydata.org/pandas-docs/stable/")
-pd = LazyImport("import pandas as pd", "PACKAGE pd derived from pandas — powerful Python data analysis toolkit, derived from 'import pandas as pd', from https://github.com/pandas-dev/pandas, Documentation: https://pandas.pydata.org/pandas-docs/stable/")
-read_csv = LazyImport("from pandas import read_csv", "FUNCTION pandas.read_csv — Read a comma-separated values (csv) file into DataFrame, derived from 'from pandas import read_csv', from https://github.com/pandas-dev/pandas, Documentation: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html")
-
-pandas_datareader = LazyImport("import pandas_datareader", "PACKAGE pandas_datareader — Extract data from a wide range of Internet sources into a pandas DataFrame, derived from 'import pandas_datareader', from https://github.com/pydata/pandas-datareader, Documentation: https://pydata.github.io/pandas-datareader/stable/index.html")
-pd_dr = LazyImport("import pandas_datareader as pd_dr", "PACKAGE pd_dr derived from pandas_datareader — Extract data from a wide range of Internet sources into a pandas DataFrame, derived from 'import pandas_datareader as pd_dr', from https://github.com/pydata/pandas-datareader, Documentation: https://pydata.github.io/pandas-datareader/stable/index.html")
-pdr = LazyImport("import pandas_datareader as pdr", "PACKAGE pdr derived from pandas_datareader — Extract data from a wide range of Internet sources into a pandas DataFrame, derived from 'import pandas_datareader as pdr', from https://github.com/pydata/pandas-datareader, Documentation: https://pydata.github.io/pandas-datareader/stable/index.html")
-DataReader = LazyImport("from pandas_datareader.data import DataReader", "Class DataReader — reading data from a wide range of Internet sources, derived from 'from pandas_datareader.data import DataReader', from https://github.com/pydata/pandas-datareader, Documentation: https://pydata.github.io/pandas-datareader/stable/index.html")
 
 dask = LazyImport("import dask", "PACKAGE dask — Parallel computing with task scheduling, derived from 'import dask', from https://github.com/dask/dask, Documentation: https://dask.org/")
 dd = LazyImport("from dask import dataframe as dd", "SUBPACKAGE dd derived from dask.dataframe — Dataframes implementing the Pandas API, derived from 'from dask import dataframe as dd', from https://github.com/dask/dask, Documentation: https://dask.org/")
