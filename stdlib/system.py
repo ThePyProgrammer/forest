@@ -1,4 +1,6 @@
 ## system
+from forest._importable import LazyImport
+
 sys = LazyImport("import sys", "LIBRARY: sys — System-specific parameters and functions, derived from 'import sys', part of The Python Standard Library")
 system = LazyImport("import sys as system", "LIBRARY: sys — System-specific parameters and functions, derived from 'import sys', part of The Python Standard Library")
 System = LazyImport("import sys as System", "LIBRARY: sys — System-specific parameters and functions, derived from 'import sys', part of The Python Standard Library")
