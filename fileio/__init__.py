@@ -32,5 +32,4 @@ sql = LazyImport("import sqlite3 as sql", "PACKAGE sql derived from sqlite3 — 
 from .xml import *
 
 ## image
-Image = LazyImport("from PIL import Image")
-PIL = LazyImport("import PIL")
+from .image import *
