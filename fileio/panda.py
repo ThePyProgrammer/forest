@@ -1,0 +1,11 @@
+# panda
+from forest._importable import LazyImport
+
+
+pandas = LazyImport("import pandas", "PACKAGE pandas — powerful Python data analysis toolkit, derived from 'import pandas', from https://github.com/pandas-dev/pandas, Documentation: https://pandas.pydata.org/pandas-docs/stable/")
+pd = LazyImport("import pandas as pd", "PACKAGE pd derived from pandas — powerful Python data analysis toolkit, derived from 'import pandas as pd', from https://github.com/pandas-dev/pandas, Documentation: https://pandas.pydata.org/pandas-docs/stable/")
+read_csv = LazyImport("from pandas import read_csv", "FUNCTION pandas.read_csv — Read a comma-separated values (csv) file into DataFrame, derived from 'from pandas import read_csv', from https://github.com/pandas-dev/pandas, Documentation: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html")
+pandas_datareader = LazyImport("import pandas_datareader", "PACKAGE pandas_datareader — Extract data from a wide range of Internet sources into a pandas DataFrame, derived from 'import pandas_datareader', from https://github.com/pydata/pandas-datareader, Documentation: https://pydata.github.io/pandas-datareader/stable/index.html")
+pd_dr = LazyImport("import pandas_datareader as pd_dr", "PACKAGE pd_dr derived from pandas_datareader — Extract data from a wide range of Internet sources into a pandas DataFrame, derived from 'import pandas_datareader as pd_dr', from https://github.com/pydata/pandas-datareader, Documentation: https://pydata.github.io/pandas-datareader/stable/index.html")
+pdr = LazyImport("import pandas_datareader as pdr", "PACKAGE pdr derived from pandas_datareader — Extract data from a wide range of Internet sources into a pandas DataFrame, derived from 'import pandas_datareader as pdr', from https://github.com/pydata/pandas-datareader, Documentation: https://pydata.github.io/pandas-datareader/stable/index.html")
+DataReader = LazyImport("from pandas_datareader.data import DataReader", "Class DataReader — reading data from a wide range of Internet sources, derived from 'from pandas_datareader.data import DataReader', from https://github.com/pydata/pandas-datareader, Documentation: https://pydata.github.io/pandas-datareader/stable/index.html")
