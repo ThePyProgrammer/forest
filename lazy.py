@@ -25,12 +25,12 @@ from ._importable import LazyImport, _import_statements
 
 # 3) If you disagree with the conventions, you can always adjust your local pyforest
 
-### Helper
+### Standard Library
 from .stdlib import *
 
 
-### Basics
-from .mathematical import *
+### STEM
+from .stem import *
 
 
 ### Array
@@ -169,10 +169,6 @@ Sanic = LazyImport("from sanic import Sanic")
 
 
 ### Data Wrangling
-numpy = LazyImport("import numpy", "PACKAGE numpy — The fundamental package for scientific computing with Python, derived from 'import numpy', from https://github.com/numpy/numpy, Documentation: https://numpy.org/doc")
-la = LazyImport("import numpy.linalg as la", "PACKAGE la derived from numpy.linalg — Linear Algebra for Python and primarily NumPy, derived from 'import numpy.linalg as la', from https://github.com/numpy/numpy, Documentation: https://numpy.org/doc/1.18/reference/routines.linalg.html")
-np = LazyImport("import np", "PACKAGE np — np-altered NumPy for more functionality, derived from 'import np', from https://github.com/k7hoven/np")
-
 scipy = LazyImport("import scipy", "PACKAGE scipy — open-source software for STEM, derived from 'import scipy', from https://github.com/scipy/scipy, Documentation: https://docs.scipy.org/doc/")
 #|----> Internal Scipy ----------------------------------------#
 sio = LazyImport("from scipy import io as sio")                #
