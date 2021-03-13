@@ -40,9 +40,6 @@ from .array import *
 ### Type based manipultation
 functools = LazyImport("import functools", "LIBRARY: functools — Higher-order functions and operations on callable objects, derived from 'import functools', part of The Python Standard Library")
 typing = LazyImport("import typing", "LIBRARY: typing — Support for type hints, derived from 'import typing', part of The Python Standard Library")
-textwrap = LazyImport("import textwrap", "LIBRARY: textwrap — Text wrapping and filling, derived from 'import textwrap', part of The Python Standard Library")
-stringprep = LazyImport("import stringprep", "LIBRARY: stringprep — Internet String Preparation, derived from 'import stringprep', part of The Python Standard Library")
-reprlib = LazyImport("import reprlib", "LIBRARY: reprlib — Alternate repr() implementation, derived from 'import reprlib', part of The Python Standard Library")
 
 
 ### Random Objects
@@ -51,11 +48,8 @@ importlib = LazyImport("import importlib", "LIBRARY: importlib — implementatio
 bisect = LazyImport("import bisect", "LIBRARY: bisect — Array bisection algorithm, derived from 'import bisect', part of The Python Standard Library")
 bisect_right = LazyImport("from bisect import bisect_right", "FUNCTION bisect_right(a, x, lo=0, hi=len(a)) — Locates the insertion point for x in a to maintain sorted order which comes before any existing entries of x in a, derived from 'from bisect import bisect_right', part of The Python Standard Library")
 bisect_left = LazyImport("from bisect import bisect_left", "FUNCTION bisect_left(a, x, lo=0, hi=len(a)) — Locates the insertion point for x in a to maintain sorted order which comes before any existing entries of x in a, derived from 'from bisect import bisect_left', part of The Python Standard Library")
-#, " — , derived from 'import ', part of The Python Standard Library"
 cf = LazyImport("import cufflinks as cf", "PACKAGE cf derived from cufflinks — Productivity Tools for Plotly + Pandas, derived from 'import cufflinks as cf', from https://github.com/santosjorge/cufflinks")
 cufflinks = LazyImport("import cufflinks", "PACKAGE cufflinks — Productivity Tools for Plotly + Pandas, derived from 'import cufflinks', from https://github.com/santosjorge/cufflinks")
-ucd = LazyImport("import unicodedata as ucd", "LIBRARY ucd derived from unicodedata — Unicode Database, derived from 'import unicodedata as ucd', part of The Python Standard Library")
-unicodedata = LazyImport("import unicodedata", "LIBRARY unicodedata — Unicode Database, derived from 'import unicodedata', part of The Python Standard Library")
 
 
 ### Google 
@@ -63,18 +57,17 @@ google = LazyImport("import googlesearch as google", "PACKAGE google derived fro
 googlesearch = LazyImport("import googlesearch", "PACKAGE googlesearch — The google package, derived from 'import googlesearch', from https://github.com/MarioVilas/googlesearch")
 convert = LazyImport("from google_currency import convert", "FUNCTION google_currency.convert(original_currency_type, new_currency_type, original_amount) — simple function to convert the currency of one country to other, derived from 'from google_currency import convert', from https://github.com/om06/google-currency")
 Translator = LazyImport("from googletrans import Translator", "CLASS googletrans.Translator — class to imitate Google Translate, derived from 'from googletrans import Translator', from https://github.com/ssut/py-googletrans, Documentation: https://py-googletrans.readthedocs.io/en/latest/")
-'''
-search = LazyImport("from googlesearch import search")
-images = LazyImport("from googlesearch import search_images as images")
-news = LazyImport("from googlesearch import search_news as news")
-videos = LazyImport("from googlesearch import search_videos as videos")
-shop = LazyImport("from googlesearch import search_shop as shop")
-books = LazyImport("from googlesearch import search_books as books")
-apps = LazyImport("from googlesearch import search_apps as apps")
-lucky = LazyImport("from googlesearch import lucky")
-hits = LazyImport("from googlesearch import hits")
-ngd = LazyImport("from googlesearch import ngd")
-'''
+
+gsearch = LazyImport("from googlesearch import search")
+gimages = LazyImport("from googlesearch import search_images as images")
+gnews = LazyImport("from googlesearch import search_news as news")
+gvideos = LazyImport("from googlesearch import search_videos as videos")
+gshop = LazyImport("from googlesearch import search_shop as shop")
+gbooks = LazyImport("from googlesearch import search_books as books")
+gapps = LazyImport("from googlesearch import search_apps as apps")
+glucky = LazyImport("from googlesearch import lucky")
+ghits = LazyImport("from googlesearch import hits")
+gngd = LazyImport("from googlesearch import ngd")
 geopy = LazyImport("import geopy", "PACKAGE geopy — Geocoding library for Python, derived from 'import geopy', from https://github.com/geopy/geopy, Documentation: https://geopy.readthedocs.io/")
 GoogleV3 = LazyImport("from geopy import GoogleV3", "CLASS geopy.GoogleV3 — Geocoder using the Google Maps v3 API, derived from 'from geopy import GoogleV3', from https://github.com/geopy/geopy, Documentation: https://geopy.readthedocs.io/en/stable/#googlev3")
 geodesic = LazyImport("from geopy.distance import geodesic", "CLASS geopy.distance.geodesic — Calculate the geodesic distance between two points, derived from 'from geopy.distance import geodesic', from https://github.com/geopy/geopy, Documentation: https://geopy.readthedocs.io/en/stable/#module-geopy.distance")
