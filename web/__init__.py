@@ -3,17 +3,10 @@ from ._importable import LazyImport, _import_statements
 
 
 ## url
-urllib = LazyImport("import urllib", "LIBRARY urllib — URL handling modules, derived from 'import urllib', from The Python Standard Library")
-request = LazyImport("from urllib import request", "LIBRARY urllib.request — Extensive library for opening URLs, derived from 'from urllib import request', from The Python Standard Library")
-urllib2 = LazyImport("import urllib.request as urllib2", "LIBRARY urllib2 derived from urllib.request — Extensive library for opening URLs, derived from 'import urllib.request as urllib2', from The Python Standard Library")
-urlopen = LazyImport("from urllib.request import urlopen", "FUNCTION urllib.request.urlopen(url...) — Opens the URL url which can be either a string or a Request object, derived from 'from urllib.request import urlopen', from The Python Standard Library")
-
+from .url import *
 
 ## scrape
-requests = LazyImport("import requests", "PACKAGE requests — A simple, yet elegant HTTP library, derived from 'import requests', from https://github.com/psf/requests, Documentation: https://requests.readthedocs.io/en/master/")
-BeautifulSoup = LazyImport("from bs4 import BeautifulSoup", "CLASS bs4.BeautifulSoup — HTML/XML Formatter on Python, derived from 'from bs4 import BeautifulSoup', from https://www.crummy.com/software/BeautifulSoup/, Documentation: https://www.crummy.com/software/BeautifulSoup/bs4/doc/")
-scrapy = LazyImport("import scrapy", "PACKAGE scrapy — A fast high-level web crawling & scraping framework for Python, derived from 'import scrapy', from https://github.com/scrapy/scrapy, Documentation: https://docs.scrapy.org/en/latest/index.html")
-
+from .scrape import *
 
 ## apis
 newspaper = LazyImport("import newspaper", "PACKAGE newspaper — News, full-text, and article metadata extraction in Python 3, derived from 'import newspaper', from https://github.com/codelucas/newspaper, Documentation: https://newspaper.readthedocs.io/en/latest/")
