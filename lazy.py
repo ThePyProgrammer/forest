@@ -461,6 +461,8 @@ projectq = LazyImport("import projectq")
 strawberryfields = LazyImport("import strawberryfields")
 sf = LazyImport("import strawberryfields as sf")
 ops = LazyImport("from strawberryfields import ops")
+qibo = LazyImport("import qibo")
+QFT = LazyImport("from qibo.models import QFT")
 
 
 ### Own Modules
