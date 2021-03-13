@@ -7,3 +7,12 @@ System = LazyImport("import sys as System", "LIBRARY: sys — System-specific pa
 os = LazyImport("import os", "LIBRARY: os — Miscellaneous operating system interfaces, derived from 'import os', part of The Python Standard Library")
 stat = LazyImport("import stat", "LIBRARY: stat — Interpreting os.stat(), os.fstat() and os.lstat() results, derived from 'import stat', part of The Python Standard Library")
 subprocess = LazyImport("import subprocess", "LIBRARY: subprocess — Subprocess management, derived from 'import subprocess', part of The Python Standard Library")
+
+__all__ = [
+	"sys", 
+	"system",
+	"System",
+	"os",
+	"stat",
+	"subprocess"
+]
