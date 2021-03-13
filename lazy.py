@@ -123,14 +123,6 @@ wave = LazyImport('import wave', "LIBRARY wave — Read and write WAV files, der
 pyaudio = LazyImport('import pyaudio', "PACKAGE pyaudio — Python Bindings for PortAudio, derived from 'import pyaudio', from https://github.com/jleb/pyaudio, Documentation: http://people.csail.mit.edu/hubert/pyaudio/docs/")
 
 
-## Windows
-wincl = LazyImport('import win32com.client as wincl', "PACKAGE wincl derived from win32com.client — Python for Windows (pywin32) Extensions, derived from 'import win32com.client as wincl', from https://github.com/mhammond/pywin32, Documentation: http://timgolden.me.uk/pywin32-docs/contents.html")
-
-
-### Shell Stuff yeet
-shell = LazyImport('from shell import shell', "FUNCTION shell.shell — Shortcut function to quickly run a command, derived from 'from shell import shell', from https://github.com/toastdriven/shell, Documentation: https://shell.readthedocs.io/en/latest/shell_api.html#module-shell")
-Shell = LazyImport('from shell import Shell', "CLASS shell.Shell — Class to run multiple commands and extend the behaviour, derived from 'from shell import Shell', from https://github.com/toastdriven/shell, Documentation: https://shell.readthedocs.io/en/latest/shell_api.html#module-shell")
-
 
 ### Auto-complete
 jedi = LazyImport("import jedi", "PACKAGE jedi — Awesome autocompletion, static analysis and refactoring library for Python, derived from 'import jedi', from https://github.com/davidhalter/jedi, Documentation: https://jedi.readthedocs.io/en/latest/")
@@ -199,8 +191,6 @@ csgraph = LazyImport("from scipy.sparse import csgraph")       #
 spatial = LazyImport("from scipy import spatial")              #
 #--------------------------------------------------------------#
 
-sympy = LazyImport("import sympy", "PACKAGE sympy — A computer algebra system written in pure Python, derived from 'import sympy', from https://github.com/sympy/sympy, Documentation: https://docs.sympy.org/dev/documentation-style-guide.html")
-sp = LazyImport("import sympy as sp", "PACKAGE sp derived from sympy — A computer algebra system written in pure Python, derived from 'import sympy as sp', from https://github.com/sympy/sympy, Documentation: https://docs.sympy.org/dev/documentation-style-guide.html")
 
 pandas = LazyImport("import pandas", "PACKAGE pandas — powerful Python data analysis toolkit, derived from 'import pandas', from https://github.com/pandas-dev/pandas, Documentation: https://pandas.pydata.org/pandas-docs/stable/")
 pd = LazyImport("import pandas as pd", "PACKAGE pd derived from pandas — powerful Python data analysis toolkit, derived from 'import pandas as pd', from https://github.com/pandas-dev/pandas, Documentation: https://pandas.pydata.org/pandas-docs/stable/")
