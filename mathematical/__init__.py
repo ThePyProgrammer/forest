@@ -18,3 +18,9 @@ from .oop import *
 
 ## symbolic
 from .symbolic import *
+
+## numalg
+from .numalg import *
+
+## tensoralg
+from .tensoralg import *
