@@ -51,8 +51,6 @@ importlib = LazyImport("import importlib", "LIBRARY: importlib — implementatio
 bisect = LazyImport("import bisect", "LIBRARY: bisect — Array bisection algorithm, derived from 'import bisect', part of The Python Standard Library")
 bisect_right = LazyImport("from bisect import bisect_right", "FUNCTION bisect_right(a, x, lo=0, hi=len(a)) — Locates the insertion point for x in a to maintain sorted order which comes before any existing entries of x in a, derived from 'from bisect import bisect_right', part of The Python Standard Library")
 bisect_left = LazyImport("from bisect import bisect_left", "FUNCTION bisect_left(a, x, lo=0, hi=len(a)) — Locates the insertion point for x in a to maintain sorted order which comes before any existing entries of x in a, derived from 'from bisect import bisect_left', part of The Python Standard Library")
-cf = LazyImport("import cufflinks as cf", "PACKAGE cf derived from cufflinks — Productivity Tools for Plotly + Pandas, derived from 'import cufflinks as cf', from https://github.com/santosjorge/cufflinks")
-cufflinks = LazyImport("import cufflinks", "PACKAGE cufflinks — Productivity Tools for Plotly + Pandas, derived from 'import cufflinks', from https://github.com/santosjorge/cufflinks")
 
 
 ### Google 
@@ -303,6 +301,9 @@ alt = LazyImport("import altair as alt", "PACKAGE alt derived from altair — De
 
 pydot = LazyImport("import pydot", "PACKAGE pydot — Python interface to Graphviz's Dot language, derived from 'import pydot', from https://github.com/pydot/pydot")
 pydot_ng = LazyImport("import pydot_ng", "PACKAGE pydot_ng — Python interface to Graphviz's Dot language, derived from 'import pydot_ng', from https://github.com/pydot/pydot-ng")
+
+cf = LazyImport("import cufflinks as cf", "PACKAGE cf derived from cufflinks — Productivity Tools for Plotly + Pandas, derived from 'import cufflinks as cf', from https://github.com/santosjorge/cufflinks")
+cufflinks = LazyImport("import cufflinks", "PACKAGE cufflinks — Productivity Tools for Plotly + Pandas, derived from 'import cufflinks', from https://github.com/santosjorge/cufflinks")
 
 
 ### Machine Learning
