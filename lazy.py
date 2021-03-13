@@ -201,12 +201,6 @@ pd_dr = LazyImport("import pandas_datareader as pd_dr", "PACKAGE pd_dr derived f
 pdr = LazyImport("import pandas_datareader as pdr", "PACKAGE pdr derived from pandas_datareader — Extract data from a wide range of Internet sources into a pandas DataFrame, derived from 'import pandas_datareader as pdr', from https://github.com/pydata/pandas-datareader, Documentation: https://pydata.github.io/pandas-datareader/stable/index.html")
 DataReader = LazyImport("from pandas_datareader.data import DataReader", "Class DataReader — reading data from a wide range of Internet sources, derived from 'from pandas_datareader.data import DataReader', from https://github.com/pydata/pandas-datareader, Documentation: https://pydata.github.io/pandas-datareader/stable/index.html")
 
-theano = LazyImport("import theano", "PACKAGE theano — a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently, derived from 'import theano', from https://github.com/Theano/Theano")
-#T = LazyImport("import theano.tensor as T")
-
-sm = LazyImport("import statsmodels.api as sm", "PACKAGE sm derived from statsmodels.api — statistical modeling and econometrics in Python, derived from 'import statsmodels.api as sm', from https://github.com/statsmodels/statsmodels, Documentation: https://www.statsmodels.org/stable/")
-smf = LazyImport("import statsmodels.formula.api as smf", "SUBPACKAGE smf derived from statsmodels.formula.api — statistical modeling and econometrics in Python, derived from 'import statsmodels.formulas.api as sm', from https://github.com/statsmodels/statsmodels, Documentation: https://www.statsmodels.org/stable/")
-
 dask = LazyImport("import dask", "PACKAGE dask — Parallel computing with task scheduling, derived from 'import dask', from https://github.com/dask/dask, Documentation: https://dask.org/")
 dd = LazyImport("from dask import dataframe as dd", "SUBPACKAGE dd derived from dask.dataframe — Dataframes implementing the Pandas API, derived from 'from dask import dataframe as dd', from https://github.com/dask/dask, Documentation: https://dask.org/")
 da = LazyImport("from dask import array as da", "SUBPACKAGE da derived from dask.array — Arrays implementing the Numpy API, derived from 'from dask import array as da', from https://github.com/dask/dask, Documentation: https://dask.org/")
