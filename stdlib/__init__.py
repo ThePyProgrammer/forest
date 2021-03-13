@@ -17,5 +17,5 @@ inspect = LazyImport("import inspect", "LIBRARY: inspect — Inspect live object
 ### debugging
 pdb = LazyImport("import pdb", "LIBRARY pdb — The Python Debugger, derived from 'import pdb', from The Python Standard Library")
 
-### Windows
+### windows
 wincl = LazyImport('import win32com.client as wincl', "PACKAGE wincl derived from win32com.client — Python for Windows (pywin32) Extensions, derived from 'import win32com.client as wincl', from https://github.com/mhammond/pywin32, Documentation: http://timgolden.me.uk/pywin32-docs/contents.html")
