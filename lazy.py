@@ -193,8 +193,6 @@ Sanic = LazyImport("from sanic import Sanic")
 
 
 
-### Debugging
-pdb = LazyImport("import pdb", "LIBRARY pdb — The Python Debugger, derived from 'import pdb', from The Python Standard Library")
 
 
 ### Data Wrangling
