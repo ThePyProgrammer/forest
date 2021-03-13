@@ -29,29 +29,10 @@ from .func import *
 from .temporal import *
 
 
-### Google 
-google = LazyImport("import googlesearch as google", "PACKAGE google derived from googlesearch — The google package, derived from 'import googlesearch as google', from https://github.com/MarioVilas/googlesearch, Documentation: https://python-googlesearch.readthedocs.io/en/latest/")
-googlesearch = LazyImport("import googlesearch", "PACKAGE googlesearch — The google package, derived from 'import googlesearch', from https://github.com/MarioVilas/googlesearch")
-convert = LazyImport("from google_currency import convert", "FUNCTION google_currency.convert(original_currency_type, new_currency_type, original_amount) — simple function to convert the currency of one country to other, derived from 'from google_currency import convert', from https://github.com/om06/google-currency")
-Translator = LazyImport("from googletrans import Translator", "CLASS googletrans.Translator — class to imitate Google Translate, derived from 'from googletrans import Translator', from https://github.com/ssut/py-googletrans, Documentation: https://py-googletrans.readthedocs.io/en/latest/")
+### Google
+from .ggl import *
 
-gsearch = LazyImport("from googlesearch import search as gsearch")
-gimages = LazyImport("from googlesearch import search_images as images as gimages")
-gnews = LazyImport("from googlesearch import search_news as gnews")
-gvideos = LazyImport("from googlesearch import search_videos as gvideos")
-gshop = LazyImport("from googlesearch import search_shop as gshop")
-gbooks = LazyImport("from googlesearch import search_books as gbooks")
-gapps = LazyImport("from googlesearch import search_apps as gapps")
-glucky = LazyImport("from googlesearch import lucky as glucky")
-ghits = LazyImport("from googlesearch import hits as ghits")
-gngd = LazyImport("from googlesearch import ngd as gngd")
-geopy = LazyImport("import geopy", "PACKAGE geopy — Geocoding library for Python, derived from 'import geopy', from https://github.com/geopy/geopy, Documentation: https://geopy.readthedocs.io/")
-GoogleV3 = LazyImport("from geopy import GoogleV3", "CLASS geopy.GoogleV3 — Geocoder using the Google Maps v3 API, derived from 'from geopy import GoogleV3', from https://github.com/geopy/geopy, Documentation: https://geopy.readthedocs.io/en/stable/#googlev3")
-geodesic = LazyImport("from geopy.distance import geodesic", "CLASS geopy.distance.geodesic — Calculate the geodesic distance between two points, derived from 'from geopy.distance import geodesic', from https://github.com/geopy/geopy, Documentation: https://geopy.readthedocs.io/en/stable/#module-geopy.distance")
-geodist = LazyImport("from geopy import distance as geodist", "SUBPACKAGE geodist derived from geopy.distance — Calculating distance between two points, derived from 'import geopy.distance as geodist', from https://github.com/geopy/geopy, Documentation: https://geopy.readthedocs.io/en/stable/#module-geopy.distance")
-youtube_dl = LazyImport("import youtube_dl", "PACKAGE youtube_dl — Command-line program to download videos from YouTube.com and other video sites, derived from 'import youtube_dl', from https://github.com/ytdl-org/youtube-dl")
-YouTube = LazyImport("from pytube import YouTube", "CLASS pytube.YouTube(url) — A lightweight YouTube wrapper for downloading YouTube videos, derived from 'from pytube import YouTube', from https://github.com/nficano/pytube, Documentation: https://python-pytube.readthedocs.io/en/latest/api.html#youtube-object")
-pafy = LazyImport("import pafy", "PACKAGE pafy — Python library to download YouTube content and retrieve metadata, derived from 'import pafy', from https://github.com/mps-youtube/pafy, Documentation: https://pythonhosted.org/pafy/")
+
 smtplib = LazyImport("import smtplib", "LIBRARY smtplib — SMTP protocol client, derived from 'import smtplib', part of The Python Standard Library")
 
 
