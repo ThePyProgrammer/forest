@@ -34,7 +34,7 @@ from .mathematical import *
 
 
 ### Array
-
+from .array import *
 
 
 ### Type based manipultation
