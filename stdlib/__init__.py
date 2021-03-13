@@ -1,19 +1,14 @@
 # stdlib
+from forest._importable import LazyImport
 
 ## system
-sys = LazyImport("import sys", "LIBRARY: sys — System-specific parameters and functions, derived from 'import sys', part of The Python Standard Library")
-system = LazyImport("import sys as system", "LIBRARY: sys — System-specific parameters and functions, derived from 'import sys', part of The Python Standard Library")
-System = LazyImport("import sys as System", "LIBRARY: sys — System-specific parameters and functions, derived from 'import sys', part of The Python Standard Library")
-os = LazyImport("import os", "LIBRARY: os — Miscellaneous operating system interfaces, derived from 'import os', part of The Python Standard Library")
-stat = LazyImport("import stat", "LIBRARY: stat — Interpreting os.stat(), os.fstat() and os.lstat() results, derived from 'import stat', part of The Python Standard Library")
-subprocess = LazyImport("import subprocess", "LIBRARY: subprocess — Subprocess management, derived from 'import subprocess', part of The Python Standard Library")
-
+from .system import *
 
 ## string
 re = LazyImport("import re", "LIBRARY: re - regex operations, derived from 'import re', part of The Python Standard Library")
 
 
-## files
+## io
 io = LazyImport("import io", "LIBRARY: io — Core tools for working with streams, derived from 'import io', part of The Python Standard Library")
 glob = LazyImport("import glob", "LIBRARY: glob — Unix style pathname pattern expansion, derived from 'import glob', part of The Python Standard Library")
 Path = LazyImport("from pathlib import Path", "CLASS: pathlib.Path — represents concrete paths of the system’s path flavour, derived from 'from pathlib import Path', part of The Python Standard Library")
