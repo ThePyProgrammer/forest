@@ -5,6 +5,9 @@ from ._importable import LazyImport, _import_statements
 from .stdlib import *
 
 
+### File I/O
+from .fileio import *
+
 ### STEM
 from .stem import *
 
@@ -139,19 +142,6 @@ da = LazyImport("from dask import array as da", "SUBPACKAGE da derived from dask
 pyspark = LazyImport("import pyspark", "PACKAGE pyspark — Python API for Apache Spark, derived from 'import pyspark', from https://github.com/apache/spark/tree/master/python, Documentation: https://spark.apache.org/docs/latest/api/python/pyspark.html")
 spark = LazyImport("import pyspark as spark", "PACKAGE spark derived from pyspark — Python API for Apache Spark, derived from 'import pyspark as spark', from https://github.com/apache/spark/tree/master/python, Documentation: https://spark.apache.org/docs/latest/api/python/pyspark.html")
 SparkContext = LazyImport("from pyspark import SparkContext", "CLASS pyspark.SparkContext — Main entry point for Spark functionality, derived from 'from pyspark import SparkContext', from https://github.com/apache/spark/tree/master/python, Documentation: https://spark.apache.org/docs/latest/api/python/pyspark.html#pyspark.SparkContext")
-
-xlrd = LazyImport("import xlrd", "PACKAGE xlrd — retrieving information from a spreadsheet, derived from 'import xlrd', from https://github.com/python-excel/xlrd, Documentation: https://xlrd.readthedocs.io/en/latest/?badge=latest")
-open_workbook = LazyImport("from xlrd import open_workbook", "FUNCTION xlrd.open_workbook — open a spreadsheet file for data extraction, derived from 'from xlrd import open_workbook', from https://github.com/python-excel/xlrd, Documentation: https://xlrd.readthedocs.io/en/latest/api.html")
-xlwt = LazyImport("import xlwt", "PACKAGE xlwt — library for writing data and formatting information to older Excel files, derived from 'import xlwt', from https://github.com/python-excel/xlwt, Documentation: https://xlwt.readthedocs.io/en/latest/")
-easyxf = LazyImport("from xlwt import easyxf", "FUNCTION xlwt.easyxf — a function to create and configure XFStyle objects, derived from 'from xlwt import easyxf', from https://github.com/python-excel/xlwt, Documentation: https://xlwt.readthedocs.io/en/latest/api.html")
-openpyxl = LazyImport("import openpyxl", "PACKAGE openpyxl — library to read/write Excel 2010 xlsx,xlsm files, derived from 'import openpyxl', from https://bitbucket.org/openpyxl/openpyxl/src/default/, Documentation: https://openpyxl.readthedocs.io/en/stable/")
-Workbook = LazyImport("from openpyxl import Workbook", "CLASS openpyxl.Workbook — a class that represents a workbook, derived from 'from openpyxl import Workbook', from https://bitbucket.org/openpyxl/openpyxl/src/default/, Documentation: https://openpyxl.readthedocs.io/en/stable/api/openpyxl.workbook.workbook.html#openpyxl.workbook.workbook.Workbook")
-Worksheet = LazyImport("from openpyxl.worksheet.worksheet import Worksheet", "CLASS openpyxl.worksheet.worksheet.Worksheet — a class that represents a sheet in a workbook, derived from 'from openpyxl.worksheet.worksheet import Worksheet', from https://bitbucket.org/openpyxl/openpyxl/src/default/, Documentation: https://openpyxl.readthedocs.io/en/stable/api/openpyxl.worksheet.worksheet.html#openpyxl.worksheet.worksheet.Worksheet")
-#load_workbook = LazyImport("from openpyxl import load_workbook")
-
-sqlite3 = LazyImport("import sqlite3", "PACKAGE sqlite3 — An Embeddable SQL Database Engine, derived from 'import sqlite3', from http://www.sqlite.org/, Documentation: https://www.sqlite.org/docs.html")
-mysql = LazyImport("import sqlite3 as mysql", "PACKAGE mysql derived from sqlite3 — An Embeddable SQL Database Engine, derived from 'import sqlite3 as mysql', from http://www.sqlite.org/, Documentation: https://www.sqlite.org/docs.html")
-sql = LazyImport("import sqlite3 as sql", "PACKAGE sql derived from sqlite3 — An Embeddable SQL Database Engine, derived from 'import sqlite3 as sql', from http://www.sqlite.org/, Documentation: https://www.sqlite.org/docs.html")
 
 
 ### Data Structures
