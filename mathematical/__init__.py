@@ -15,3 +15,7 @@ from .rand import *
 
 ## oop
 from .oop import *
+
+## symbols
+sympy = LazyImport("import sympy", "PACKAGE sympy — A computer algebra system written in pure Python, derived from 'import sympy', from https://github.com/sympy/sympy, Documentation: https://docs.sympy.org/dev/documentation-style-guide.html")
+sp = LazyImport("import sympy as sp", "PACKAGE sp derived from sympy — A computer algebra system written in pure Python, derived from 'import sympy as sp', from https://github.com/sympy/sympy, Documentation: https://docs.sympy.org/dev/documentation-style-guide.html")
