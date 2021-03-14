@@ -109,8 +109,7 @@ TrumpApproval = LazyImport("from creme.datasets import TrumpApproval")
 
 eli5 = LazyImport("import eli5", "PACKAGE eli5 — A library for debugging/inspecting machine learning classifiers and explaining their predictions, derived from 'import eli5', from https://github.com/TeamHG-Memex/eli5/, Documentation: http://eli5.readthedocs.io/")
 
-torch = LazyImport("import torch")
-tc = LazyImport("import tensor_comprehensions as tc")
+from .pytorch import *
 
 # Gradient Boosting Decision Tree
 xgb = LazyImport("import xgboost as xgb")
