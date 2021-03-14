@@ -1,5 +1,5 @@
 # scikit
-from ._importable import LazyImport, _import_statements
+from forest._importable import LazyImport
 
 
 sklearn = LazyImport("import sklearn", "PACKAGE sklearn — Machine learning in Python, derived from 'import sklearn', from https://github.com/scikit-learn/scikit-learn, Documentation: https://scikit-learn.org/stable/modules/classes.html")
