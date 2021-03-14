@@ -1,5 +1,5 @@
 # url
-from ._importable import LazyImport, _import_statements
+from forest._importable import LazyImport
 
 
 urllib = LazyImport("import urllib", "LIBRARY urllib — URL handling modules, derived from 'import urllib', from The Python Standard Library")
