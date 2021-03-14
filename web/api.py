@@ -1,5 +1,5 @@
 # api
-from ._importable import LazyImport, _import_statements
+from forest._importable import LazyImport
 
 
 newspaper = LazyImport("import newspaper", "PACKAGE newspaper — News, full-text, and article metadata extraction in Python 3, derived from 'import newspaper', from https://github.com/codelucas/newspaper, Documentation: https://newspaper.readthedocs.io/en/latest/")
