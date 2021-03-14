@@ -1,5 +1,5 @@
 # audio
-from ._importable import LazyImport, _import_statements
+from forest._importable import LazyImport
 
 
 playsound = LazyImport('from playsound import playsound', "FUNCTION playsound.playsound('/path.to/a/sound/file/you/want/to/play.mp3 | URL', block=True) — Function to playing sound file with filetype WAVE and MP3, derived from 'from playsound import playsound', from https://github.com/TaylorSMarks/playsound")
