@@ -29,4 +29,8 @@ from .tensoralg import *
 ## science
 from .science import *
 
+## physics
+from .physics import *
 
+## astro
+from .astro import *
