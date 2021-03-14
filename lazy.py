@@ -66,6 +66,8 @@ from .dataviz import *
 ### Machine Learning
 from .scikit import *
 
+from .pytorch import *
+
 
 creme = LazyImport("import creme")
 Pipeline = LazyImport("from creme.compose import Pipeline")
@@ -107,9 +109,6 @@ Taxis = LazyImport("from creme.datasets import Taxis")
 TREC07 = LazyImport("from creme.datasets import TREC07")
 TrumpApproval = LazyImport("from creme.datasets import TrumpApproval")
 
-eli5 = LazyImport("import eli5", "PACKAGE eli5 — A library for debugging/inspecting machine learning classifiers and explaining their predictions, derived from 'import eli5', from https://github.com/TeamHG-Memex/eli5/, Documentation: http://eli5.readthedocs.io/")
-
-from .pytorch import *
 
 # Gradient Boosting Decision Tree
 xgb = LazyImport("import xgboost as xgb")
@@ -125,20 +124,21 @@ tfkeras = LazyImport("import tensorflow.keras as tfkeras")
 ### OCR
 opencv = LazyImport("import cv2 as opencv", "PACKAGE opencv derived from cv2 — Open Source Computer Vision Library, derived from 'import cv2 as opencv', from https://github.com/opencv/opencv, Documentation: https://docs.opencv.org/master/")
 cv2 = LazyImport("import cv2", "PACKAGE cv2 — Open Source Computer Vision Library, derived from 'import cv2', from https://github.com/opencv/opencv, Documentation: https://docs.opencv.org/master/")
+skimage = LazyImport("import skimage")
 
 
-# NLP
+### NLP
 nltk = LazyImport("import nltk")
 gensim = LazyImport("import gensim")
 spacy = LazyImport("import spacy")
 
 
-# ------ Sentiment Analysis --------
+### ------ Sentiment Analysis --------
 tweepy = LazyImport("import tweepy")
 TextBlob = LazyImport("from textblob import TextBlob")
 
 
-# Quantum
+### Quantum
 qiskit = LazyImport("import qiskit")
 cirq = LazyImport("import cirq")
 openfermion = LazyImport("openfermion")
