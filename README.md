@@ -31,6 +31,7 @@ I am ThePyProgrammer
 'https://www.fiverr.com/thepycoder/design-and-build-applications'
 'https://www.deviantart.com/thepycoder/gallery/all'
 >>> x = np.random.rand(50)
+>>> sns.set()
 >>> plt.plot(arr, x)
 [<matplotlib.lines.Line2D object at 0x000001EDD32F6FD0>]
 >>> plt.show()
