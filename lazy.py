@@ -58,10 +58,7 @@ dask = LazyImport("import dask", "PACKAGE dask — Parallel computing with task 
 dd = LazyImport("from dask import dataframe as dd", "SUBPACKAGE dd derived from dask.dataframe — Dataframes implementing the Pandas API, derived from 'from dask import dataframe as dd', from https://github.com/dask/dask, Documentation: https://dask.org/")
 da = LazyImport("from dask import array as da", "SUBPACKAGE da derived from dask.array — Arrays implementing the Numpy API, derived from 'from dask import array as da', from https://github.com/dask/dask, Documentation: https://dask.org/")
 
-pyspark = LazyImport("import pyspark", "PACKAGE pyspark — Python API for Apache Spark, derived from 'import pyspark', from https://github.com/apache/spark/tree/master/python, Documentation: https://spark.apache.org/docs/latest/api/python/pyspark.html")
-spark = LazyImport("import pyspark as spark", "PACKAGE spark derived from pyspark — Python API for Apache Spark, derived from 'import pyspark as spark', from https://github.com/apache/spark/tree/master/python, Documentation: https://spark.apache.org/docs/latest/api/python/pyspark.html")
-SparkContext = LazyImport("from pyspark import SparkContext", "CLASS pyspark.SparkContext — Main entry point for Spark functionality, derived from 'from pyspark import SparkContext', from https://github.com/apache/spark/tree/master/python, Documentation: https://spark.apache.org/docs/latest/api/python/pyspark.html#pyspark.SparkContext")
-
+from .apache import *
 
 ### Data Visualization and Plotting
 from .dataviz import *
