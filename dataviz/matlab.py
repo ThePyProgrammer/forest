@@ -1,5 +1,5 @@
 # matlab
-from ._importable import LazyImport, _import_statements
+from forest._importable import LazyImport
 
 
 matplotlib = LazyImport("import matplotlib", "PACKAGE matplotlib — A comprehensive library for creating static, animated, and interactive visualizations in Python, derived from 'import matplotlib', from https://github.com/matplotlib/matplotlib, Documentation: https://matplotlib.org/contents.html")
