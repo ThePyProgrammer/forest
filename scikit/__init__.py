@@ -73,3 +73,7 @@ make_classification = LazyImport("from sklearn.datasets import make_classificati
 make_regression = LazyImport("from sklearn.datasets import make_regression")
 
 # , "CLASS sklearn. — , derived from 'from sklearn. import ', from https://github.com/scikit-learn/scikit-learn, Documentation: https://scikit-learn.org/stable/modules/classes.html")
+
+
+skimage = LazyImport("import skimage")
+
