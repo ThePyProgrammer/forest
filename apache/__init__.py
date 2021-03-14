@@ -1,5 +1,5 @@
 # apache
-from ._importable import LazyImport, _import_statements
+from forest._importable import LazyImport
 
 
 pyspark = LazyImport("import pyspark", "PACKAGE pyspark — Python API for Apache Spark, derived from 'import pyspark', from https://github.com/apache/spark/tree/master/python, Documentation: https://spark.apache.org/docs/latest/api/python/pyspark.html")
