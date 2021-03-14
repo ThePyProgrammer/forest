@@ -20,7 +20,6 @@ I am ThePyProgrammer
 >>> for i in gsearch("ThePyProgrammer", tld="co.in", num=10, stop=10, pause=2):
 	pprint(i)
 
-	
 'https://github.com/ThePyProgrammer'
 'https://github.com/ThePyProgrammer/PXChallenge'
 'https://pypi.org/user/ThePyProgrammer/'
@@ -31,6 +30,10 @@ I am ThePyProgrammer
 'https://www.gitmemory.com/thepycoder'
 'https://www.fiverr.com/thepycoder/design-and-build-applications'
 'https://www.deviantart.com/thepycoder/gallery/all'
+>>> x = np.random.rand(50)
+>>> plt.plot(arr, x)
+[<matplotlib.lines.Line2D object at 0x000001EDD32F6FD0>]
+>>> plt.show()
 
 ```
 
