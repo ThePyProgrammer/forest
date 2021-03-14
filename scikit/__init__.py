@@ -76,4 +76,3 @@ make_regression = LazyImport("from sklearn.datasets import make_regression")
 
 
 skimage = LazyImport("import skimage")
-
