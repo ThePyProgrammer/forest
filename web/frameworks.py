@@ -1,5 +1,5 @@
 # frameworks
-from ._importable import LazyImport, _import_statements
+from forest._importable import LazyImport
 
 
 fastapi = LazyImport("import fastapi")
