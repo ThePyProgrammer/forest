@@ -2,13 +2,45 @@
 
 **By Prannaya Gupta**
 
-A library based on pyforest to auto-import every library imaginable. It also adds functionality for Machine Learning and Data Science.
+A library based on [pyforest](https://github.com/8080labs/pyforest) to auto-import every library imaginable. It also adds functionality for Machine Learning and Data Science.
+
+## The basics of forest
+
+Based around pyforest, forest utilises many tools from the library.
+
+```python
+>>> from forest import *
+>>> arr = np.linspace(-math.pi, np.pi)
+>>> os.mkdir("test")
+>>> _ = sys.stdout.write("I am ThePyProgrammer")
+I am ThePyProgrammer
+>>> x, y = symbols("x y")
+>>> (x + 6)**2 + (y - 6)**2
+(x + 6)**2 + (y - 6)**2
+>>> for i in gsearch("ThePyProgrammer", tld="co.in", num=10, stop=10, pause=2):
+	pprint(i)
+
+	
+'https://github.com/ThePyProgrammer'
+'https://github.com/ThePyProgrammer/PXChallenge'
+'https://pypi.org/user/ThePyProgrammer/'
+'https://githubmemory.com/@ThePyProgrammer'
+'https://githubmemory.com/repo/ThePyProgrammer/GaitMonitoringForParkinsonsDiseasePatients/activity?page=2'
+'https://twitter.com/thepycoder'
+'https://www.xinruishi.com/ThePyProgrammer/shabdkosh/pulls'
+'https://www.gitmemory.com/thepycoder'
+'https://www.fiverr.com/thepycoder/design-and-build-applications'
+'https://www.deviantart.com/thepycoder/gallery/all'
+
+```
+
+
 
 
 
 ## Documentation
 
-This library uses the LazyForest class used in pyforest, but allows users to add documentation.
+This library still uses the LazyForest class used in pyforest, but allows users to add documentation.
 
 ```python
 >>> from forest import *
