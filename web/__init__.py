@@ -1,5 +1,5 @@
 # web
-from ._importable import LazyImport, _import_statements
+from forest._importable import LazyImport
 
 
 ## url
