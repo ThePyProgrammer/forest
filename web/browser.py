@@ -1,5 +1,5 @@
 # browser
-from ._importable import LazyImport, _import_statements
+from forest._importable import LazyImport
 
 
 webbrowser = LazyImport("import webbrowser", "LIBRARY webbrowser — Convenient Web-browser controller, derived from 'import webbrowser', from The Python Standard Library")
