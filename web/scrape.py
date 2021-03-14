@@ -1,5 +1,5 @@
 # scrape
-from ._importable import LazyImport, _import_statements
+from forest._importable import LazyImport
 
 
 requests = LazyImport("import requests", "PACKAGE requests — A simple, yet elegant HTTP library, derived from 'import requests', from https://github.com/psf/requests, Documentation: https://requests.readthedocs.io/en/master/")
