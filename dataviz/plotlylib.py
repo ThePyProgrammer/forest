@@ -1,5 +1,5 @@
 # plotlylib
-from ._importable import LazyImport, _import_statements
+from forest._importable import LazyImport
 
 
 plotly = LazyImport("import plotly", "PACKAGE plotly — The interactive open-source browser-based graphing library for Python (includes Plotly Express), derived from 'import plotly', from https://github.com/plotly/plotly.py, Documentation: https://plotly.com/python/")
