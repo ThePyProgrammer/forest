@@ -49,6 +49,10 @@ class LazyImport(object):
         self.__maybe_import__()
         return eval(self.__imported_name__)(*args, **kwargs)
 
+    def __getitem__(self, key):
+        self.__maybe_import__()
+        return eval(self.__imported_name__)[key]
+
     def __repr__(self, *args, **kwargs):
         # it is important that __repr__ does not trigger an import if the lazy_import is not yet imported
         # e.g. if the user calls locals(), this triggers __repr__ for each object
